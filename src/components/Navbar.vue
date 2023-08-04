@@ -5,8 +5,7 @@ export default {
             navigations: {
                 "About": "#about",
                 "Skills": "#skills",
-                "Projects": "#projects",
-                "Testimonials": "#testimonials",
+                "Projects": "#projects"
             },
             isActive: false,
             isHidden: false
@@ -24,14 +23,14 @@ export default {
 <template>
     <nav role="navigation">
         <div class="brand">
-            <h1>Khawar Mehfooz</h1>
+            <h1>Bilawal Mehfooz</h1>
         </div>
         <ul class="nav__items" :class="{ active: isActive }">
             <li @click="toggleActive" v-for="(link, navigation, index) in navigations" class="nav__item"><a :href="link" class="nav__link">{{
                 navigation }}</a></li>
         </ul>
         <div class="cta">
-            <a href="mailto:khawarmehfooz@outlook.com">Hire Me</a>
+            <a href="mailto:bilawalmehfoozmalik@gmail.com">Hire Me</a>
         </div>
         <div class="nav__toggle">
             <button @click="toggleActive" class="toggle__buttons" :class="{ hide: isHidden }" aria-label="open navigation"

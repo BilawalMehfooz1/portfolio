@@ -2,9 +2,9 @@
 export default{
     data(){
         return{
-            subheading: "Web Developer",
-            heading: "Hi!👋I'm <span class='gradient__text'> Khawar Mehfooz</span>",
-            description: "I'm a Web developer based in  <span class='highlight__text'>Azad Kashmir, Pakistan.</span>",
+            subheading: "Mobile App Developer",
+            heading: "Hi!👋I'm <span class='gradient__text'> Bilawal Mehfooz</span>",
+            description: "I'm a Mobile App Developer based in  <span class='highlight__text'>Azad Kashmir, Pakistan.</span>",
             img: "/images/khawar-mehfooz.webp"
         }
     }
@@ -18,7 +18,7 @@ export default{
             <p class="hero__left--description" v-html="description"></p>
             <div class="hero__left--buttons">
                 <a class="work__btn" role="button" href="#projects">See my work</a>
-                <a class="cta__btn" role="button" href="mailto:khawarmehfooz@oulook.com">Get in touch</a>
+                <a class="cta__btn" role="button" href="mailto:bilawalmehfoozmalik@gmail.com">Get in touch</a>
             </div>
         </div>
         <div class="hero__right">
