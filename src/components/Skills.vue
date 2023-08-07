@@ -4,37 +4,12 @@ export default {
         return{
             skills: [
                 {
-                    name: "html",
-                    img: "/images/html.png"
+                    name: "dart",
+                    img: "/images/dart.png"
                 },
                 {
-                    name: "css",
-                    img: "/images/css.png"
-                },
-                {
-                    name: "javascript",
-                    img: "/images/js.png"
-                },
-                {
-                    name: "vue.js",
-                    img: "/images/vuejs.png"
-                },
-                {
-                    name: "php",
-                    img: "/images/php.png",
-                    id:"php"
-                },
-                {
-                    name: "mysql",
-                    img: "/images/mysql.png"
-                }, 
-                {
-                    name: "git",
-                    img: "/images/git.png"
-                },
-                {
-                    name: "wordpress",
-                    img: "/images/wordpress.png"
+                    name: "flutter",
+                    img: "/images/flutter.png"
                 }
             ]
         }
@@ -68,13 +43,17 @@ export default {
 }
 
 .skill__card{
-    width: 7rem;
-    height: 7rem;
+    width: 8rem;
+    height: 8rem;
     background-color: var(--dark-2);
     padding: 1.2rem;
     border-bottom: 4px solid var(--brand);
     border-radius: 8px;
     margin: 0 .5rem 1rem 0.5rem;
+}
+img{
+    aspect-ratio: 1;
+    object-fit: cover;
 }
 @media only screen and (max-width:600px){
     .skills__container{

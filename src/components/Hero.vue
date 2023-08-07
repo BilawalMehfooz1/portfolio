@@ -5,7 +5,7 @@ export default{
             subheading: "Mobile App Developer",
             heading: "Hi!👋I'm <span class='gradient__text'> Bilawal Mehfooz</span>",
             description: "I'm a Mobile App Developer based in  <span class='highlight__text'>Azad Kashmir, Pakistan.</span>",
-            img: "/images/khawar-mehfooz.webp"
+            img: "/images/bilawal-mehfooz.jfif"
         }
     }
 }

@@ -12,7 +12,7 @@ import Footer from './components/Footer.vue';
   <Hero/>
   <About />
   <Skills/>
-  <Projects/>
+  <!-- <Projects/> -->
   <Footer/>
 </template>
 
